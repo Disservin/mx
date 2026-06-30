@@ -909,6 +909,11 @@ suite = {
           # git clone https://github.com/ninja-build/ninja && cd ninja
           # git checkout <github release commit of the particular Ninja version>
           # ./configure.py --bootstrap
+          "aarch64" : {
+            "version" : "1.14.0",
+            "urls" : ["https://github.com/userdocs/qbt-ninja-build/releases/download/v{version}/ninja-aarch64"],
+            "digest": "sha256:b00c9614e48ee5e26855a0bb510d5ffb192a475f7feeb3fb7138316398939078c01b0e0166887a3deec0728a111eba9aec62eb176dd8fb7f5758ad38b8436bcd"
+          },
           "amd64" : {
             "version" : "1.10.2",
             "urls" : ["https://lafo.ssw.jku.at/pub/graal-external-deps/ninja-{version}-linux-amd64-musl.zip"],
